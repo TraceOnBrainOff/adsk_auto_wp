@@ -12,7 +12,8 @@
   become: yes
   vars:
     app_ips:
-      - 172.31.43.23:80
+      - 3.71.47.156:80
+      - 3.71.74.230:80
   tasks:
     - name: install epel
       yum:
